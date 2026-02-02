@@ -1,5 +1,5 @@
 import { Button } from "@/components/ui/button";
-import { ArrowRight } from "lucide-react";
+import { ArrowRight, Bold } from "lucide-react";
 
 export const Hero = () => {
   const scrollToSection = (id: string) => {
@@ -22,15 +22,13 @@ export const Hero = () => {
 
       <div className="container mx-auto px-4 relative z-10">
         <div className="max-w-4xl mx-auto text-center">
-          <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold text-primary-foreground mb-6 animate-fade-in">
-            Soluções em Mangueiras e Conexões para Diversas Aplicações
-          </h1>
-          
-          <p className="text-xl md:text-2xl text-primary-foreground/90 mb-8 animate-fade-in" style={{ animationDelay: "0.1s" }}>
-            Com mais de 30 anos de experiência, a Hitocom oferece produtos de alta qualidade para indústrias e profissionais de todo o Brasil.
-          </p>
-
-          <div className="bg-primary-foreground/10 backdrop-blur-sm rounded-2xl p-6 md:p-8 mb-8 animate-fade-in" style={{ animationDelay: "0.2s" }}>
+            <h1 className="text-3xl md:text-5xl lg:text-6xl font-bold text-primary-foreground mb-6 animate-fade-in">
+            Hitocom 
+            </h1>
+            <p className="text-xl md:text-2xl text-primary-foreground/90 mb-8 animate-fade-in font-bold" style={{ animationDelay: "0.1s" }}>
+              Sua solução em mangueiras e conexões industriais no Brasil.
+            </p>
+            <div className="bg-primary-foreground/10 backdrop-blur-sm rounded-2xl p-6 md:p-8 mb-8 animate-fade-in" style={{ animationDelay: "0.2s" }}>
             <p className="text-lg text-primary-foreground leading-relaxed">
               A Hitocom Mangueiras e Conexões é especializada na venda de mangueiras industriais, hidráulicas, para combustíveis, gases, freio automotivo, ar condicionado, PU, e muito mais, além de conexões de inox, cobre e latão. Com mais de 30 anos de história, oferecemos produtos que garantem desempenho, segurança e a satisfação dos nossos clientes.
             </p>
