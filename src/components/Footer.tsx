@@ -23,13 +23,13 @@ export const Footer = () => {
               <div className="flex items-start gap-3">
                 <Phone className="w-5 h-5 text-accent mt-1 flex-shrink-0" />
                 <div>
-                  <p className="text-background/80">(11) 99999-9999</p>
-                  <p className="text-background/80">(11) 3333-3333</p>
+                  <p className="text-background/80">(11) 94794-4777</p>
+                  <p className="text-background/80">(11) 4437-9699</p>
                 </div>
               </div>
               <div className="flex items-start gap-3">
                 <Mail className="w-5 h-5 text-accent mt-1 flex-shrink-0" />
-                <p className="text-background/80">contato@hitocom.com.br</p>
+                <p className="text-background/80">vendas@hitocom.com.br</p>
               </div>
             </div>
           </div>
@@ -41,15 +41,15 @@ export const Footer = () => {
               <div className="flex items-start gap-3">
                 <MapPin className="w-5 h-5 text-accent mt-1 flex-shrink-0" />
                 <p className="text-background/80">
-                  São Paulo, SP<br />
-                  Brasil
+                  Avenida Queiros dos Santos, 1992<br />
+                  Santo André - SP, 09015-311
                 </p>
               </div>
               <div className="flex items-start gap-3">
                 <Clock className="w-5 h-5 text-accent mt-1 flex-shrink-0" />
                 <div>
-                  <p className="text-background/80">Segunda a Sexta</p>
-                  <p className="text-background/80">8h às 18h</p>
+                  <p className="text-background/80">Segunda a Sexta | 8h às 17h</p>
+                  <p className="text-background/80">Sábado | 8h às 12h</p>
                 </div>
               </div>
             </div>
