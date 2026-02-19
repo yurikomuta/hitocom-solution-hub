@@ -52,7 +52,7 @@ export const Header = () => {
 
           <div className="hidden md:block">
             <Button
-              onClick={() => scrollToSection("contato")}
+              onClick={() => window.open("https://wa.me/5511947944777", "_blank")}
               className="bg-accent text-accent-foreground hover:bg-accent/90 font-semibold shadow-lg"
             >
               Peça um Orçamento
@@ -95,8 +95,9 @@ export const Header = () => {
             >
               Contato
             </button>
+
             <Button
-              onClick={() => scrollToSection("contato")}
+              onClick={() => window.open("https://wa.me/5511947944777", "_blank")}
               className="bg-accent text-accent-foreground hover:bg-accent/90 font-semibold w-full"
             >
               Peça um Orçamento

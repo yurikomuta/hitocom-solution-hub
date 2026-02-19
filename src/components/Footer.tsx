@@ -10,7 +10,7 @@ export const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mb-8">
           {/* Logo and Description */}
           <div className="lg:col-span-2">
-            <img src={logo} alt="Hitocom Logo" className="h-16 w-auto mb-4 brightness-0 invert" />
+            <img src={logo} alt="Hitocom Logo" className="h-16 w-auto mb-4 " />
             <p className="text-background/80 leading-relaxed mb-4">
               Há mais de 30 anos fornecendo soluções completas em mangueiras e conexões industriais para todo o Brasil. Qualidade, experiência e compromisso com nossos clientes.
             </p>
